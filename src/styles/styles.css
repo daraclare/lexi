@@ -1,0 +1,31 @@
+@import './font-face.css';
+
+html {
+  font: 14px/20px "Graphik Web Light", Arial, Verdana, sans-serif;
+}
+
+/* remove focus outline in Chrome */
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.word {
+  font-family: "Graphik Web SemiBold"
+}
+
+.lexi-container {
+  margin: 0 30%;
+  text-align: left;
+}
+
+.keywords {
+  background-color: pink;
+  border: white 1px solid;
+  margin-right: 1%;
+  border-radius: 10px;
+  color: slategrey;
+}
+
+hr {
+  border: lightgrey 1px solid;
+}

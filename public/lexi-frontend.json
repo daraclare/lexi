@@ -1,0 +1,452 @@
+[
+{
+  "word":"Front-end",
+  "answer":"The front-end is everything involved with what the user sees, including design and some languages like HTML and CSS.",
+  "keywords": ["frontend", "SWE"]
+},
+{
+  "word":"AJAX",
+  "answer":"Stands for Asynchronous JavaScript and XML. A set of web development techniques which allows a web page to communicate with a server without reloading the page.​",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Ajax-Truclient",
+  "answer":"An advanced protocol for modern JavaScript-based applications, including Ajax, used to emulates user activity within a Web browser. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Angular",
+  "answer":"An open source JavaScript MVC framework for building dynamic web apps; maintained by Google. The latest version available as of March 2017 is Angular 4. The release of Angular 5 is scheduled for September/October 2017.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Angular 2",
+  "answer":"A version of Google’s Angular framework. Unlike AngularJS, Angular 2 is not an MVC framework, but rather a component-based framework where an application is a tree of loosely coupled components.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Angular CLI",
+  "answer":"A command line interface tool used to quickly build Angular apps. Can create a project, add files, and perform a variety of ongoing development tasks such as testing, bundling, and deployment. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Aurelia",
+  "answer":"A next generation JavaScript client framework written with ES6 & ES7 that integrates with Web Components. There are no external dependencies except polyfills.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Backbone (network)",
+  "answer":"A part of computer network that interconnects its pieces, provides a path for the exchange of information between different subnetworks, kind of larger transmission line that carries data gathered from smaller lines. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Backbone.js",
+  "answer":"A lightweight JavaScript library that adds structure to client-side code, allows to develop the client-side apps that run in a web browser, offers MVC framework. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Bootstrap",
+  "answer":"A free and open-source front-end development framework for the creation of responsive, mobile-first websites; built on HTML, CSS and JS. In July 2016 Bootstrap was released.  ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Bower",
+  "answer":"A web package manager, light-weight tool used to install quickly browser dependencies, provides an easy way for the main files to be installed or moved to one or more locations",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Browserify",
+  "answer":"An open-source JavaScript development tool, allows to write Node.js-style modules that compile for use in the browser, enables the requiring packages installed via NPM. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Canvas",
+  "answer":"A data collection and sharing platform for creating and editing mobile apps. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Chart FX",
+  "answer":"A data visualization tool for Microsoft's Visual Studio, it makes classes more recognizable and easier to code, adapts real-time, financial, statistical extensions, maps, etc. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Citrix",
+  "answer":"A software platform and company that provides application virtualization, SaaS and cloud computing technologies, also allows mobilization/optimization of web apps and data delivery. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"ClojureScript",
+  "answer":"A compiler for Clojure, designed to emit JavaScript code that is compatible with the advanced compilation mode of the Google Closure optimizing compiler.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Compass",
+  "answer":"A CSS library that is used, primarily, to include browser prefixes on certain CSS properties, it makes website design simpler to implement and easier to maintain. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"CSS",
+  "answer":"A style sheet language that is used for presentation and formatting content on the web pages, including font, size, color, spacing, border and location of HTML information. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"CSS-related",
+  "answer":"CSS2, CSS3, Bootstrap, Compass, LESS, Sass, YAML, Zurb.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"CSS Modules",
+  "answer":"CSS files where all class and animation names are scoped locally by default.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"CSS Preprocessor",
+  "answer":"A scripting language that extends CSS and gets compiled into regular CSS syntax",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"D3.js",
+  "answer":"Stands for Data-Driven Documents, a JavaScript library for interactive data visualization in web browsers, allows control over the final visual result on thousands of websites.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"DirectShow",
+  "answer":"A Microsoft multimedia framework and API that provides various operations with media files, high-quality capture and playback of multmedia streams.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Dojo",
+  "answer":"An open source modular JavaScript library, used for fast development of cross-platform JavaScript and AJAX-based apps and web sites, provides a relatively rich client-side component set,  anonymous SVN access to everyone, etc. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"DOM",
+  "answer":"Stands for Document Object Model. An application programming interface (API) that enables to create and modify HTML and XML documents as programming objects.  ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"ECMAScript",
+  "answer":"Or simply ES. A client-side scripting language specification that is the basis of several programming languages including JavaScript, ActionScript, and JScript. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Electron",
+  "answer":"An open-source framework which gives developers an opportunity to write cross-platform desktop applications using JavaScript, CSS & HTML.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Elm",
+  "answer":"A functional language that compiles to JavaScript and is used for creating websites and web apps (competing with projects like React).",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Ember.js",
+  "answer":"An open source JavaScript client-side framework for developing web applications, provides a complete solution with data management and an application flow. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Haml",
+  "answer":"Stands for HTML Abstraction Markup Language. The dominant alternative template language used in the Ruby on Rails web framework; suitable for a wide range of applications.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"HTML",
+  "answer":"Stands for the HyperText Markup Language. Used to describe the structure of web pages. Its code ensures the proper formatting of text and images so that your Internet browser may display them. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"HTML-related",
+  "answer":"HTML4, HTML5, Zurb, Bootstap, Canvas, WebGL.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"HTMLPad",
+  "answer":"A full featured editing environment for convenient and productive HTML, XHTML, CSS, PHP and web script editing, it provides integrated tools to validate code, reuse, navigate and format it.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Hyper-V",
+  "answer":"A Windows native hypervisor that can create virtual machines on systems running Windows, can be configured to expose individual virtual machines to one or more networks.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"GraphQL",
+  "answer":"A query language for APIs created by Facebook and a server-side runtime for executing queries by using a type system you define for your data. It isn't tied to any specific database/storage engine and is instead backed by your existing code and data.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Grunt",
+  "answer":"A task-based command line build tool for JavaScript projects, built on Node.js, used to automatically perform frequently used tasks (minification, compilation, unit testing, linting, etc).   ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Gulp",
+  "answer":"An open-source JavaScript toolkit for time-consuming tasks in development workflow, build on Node.js, used as a streaming build system in front-end web development, help in bundling libraries, refreshing browser,  Less/Sass compilation etc.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"IoC",
+  "answer":"Stands for Inversion of control, a design principle for more flexibility and less dependency in which custom-written portions of a program receive the flow of control from a generic framework. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Infragistics",
+  "answer":"A platform for building high-performing web apps and global software company that provides interface development tools, testing tools, UI and UX services. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"ITIL",
+  "answer":"Stands for Information Technology Infrastructure Library, an integrated set of practice processes for standardization, selection, planning, delivery and support of IT services with business needs. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"ISA",
+  "answer":"Stands for Innovation for Sustainable Aviation, an aviation simulation tool that provides a service for the design and development of simulation and software solutions, advanced software technologies to the air traffic management.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Isomorphic apps",
+  "answer":"JavaScript apps that can run both client-side and server-side. The backend and frontend share the same code.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"JADE",
+  "answer":"Stands for Java Agent Development Framework, a high-performance software platform used for developing multi-agent systems, it provides class libraries to create agents, graphical toolkit to managing the platform of intelligent agents, etc.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Jasmine",
+  "answer":"A BDD framework for JavaScript testing (for browsers and Node.js), aims to run on any JavaScript-enabled platform, have easy-to-read syntax.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"JavaScript testing tools",
+  "answer":"Jasmine, Karma, Mocha.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"JavaScript frameworks",
+  "answer":"Angular, React, Ember.js, extJS, Backbone, Knockout.js, D3.js, Sencha​, Mercury.js, ​WebRx, Vue.js​.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"JFace",
+  "answer":"A user interface toolkit that provides classes and frameworks for common standard widget toolkit use cases, simplifies the mapping of a data model to a visual representation, provides helper classes to manage system resources (colors, images, fonts, etc).",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"JSON",
+  "answer":"Stands for JavaScript Object Notation, a data-interchange format for storing and exchanging data in an organized, easy-to-access manner, especially useful for JavaScript-based apps.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"JSX",
+  "answer":"Stands for JavaScript XML, an object-oriented programming language that adds XML syntax to JavaScript, designed for modern web browsers, it is type-safe and also faster because of performing optimization while compiling code to JavaScript. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"JTable",
+  "answer":"A Swing Componenet used to show the datas in table format, to display complex data structures and customize its rendering, allows to set up simple tables easily. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"jQuery",
+  "answer":"A fast, lightweight and feature-rich JavaScript library designed to simplify the client-side scripting of HTML. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"JWT",
+  "answer":"Stands for JSON Web Token, an open standard, compact URL-safe means for representing claims to be transferred between two parties, used for creating access usable tokens in web browser single sign-on context. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Karma",
+  "answer":"A testing tool for JavaScript that runs on Node.js, allows to execute JavaScript code in multiple real browsers, it is highly configurable, integrates with popular CI packages. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Kendo",
+  "answer":"A JavaScript and HTML5 framework for building web applications, it provides UI widgets, powerful data source, fast templates, simple validation, data visualization, Mobile UI widgets, etc.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"LESS",
+  "answer":"A dynamic style sheet language, a CSS pre-processor that helps in making code modular and reusable. Runs on both the client-side and the server-side with Node.js. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Masonry",
+  "answer":"A lightweight JavaScript layout framework for jQuery. Wraps AutoLayout with a nicer syntax. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Mercury",
+  "answer":"A lightweight, simple and potent modular front-end framework that provides a number of pre-built web modules and components that you can start implementing in your apps straight away.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Microsoft Visio",
+  "answer":"A Microsoft Office graphics application used to create flowcharts, network diagrams, organizational charts, technical projects, modern patterns, it aims to simplify scheme crearting.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Mocha",
+  "answer":"A JavaScript test framework running on Node.js and in the browser. Runs tests serially, mapping uncaught exceptions to the correct test cases. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Polymer",
+  "answer":"An open-source JavaScript library for building apps via web components; developed by Google and used by a number of Google services, e.g. YouTube Gaming, Google I/O websites, Google Play Music. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"PostCSS",
+  "answer":"A tool for transforming CSS with JavaScript plugins, it provides a CSS parser and a framework for creating plugins that can analyse, lint, handle assets, optimise, create fallbacks, and otherwise transform parsed CSS.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"ReactJS",
+  "answer":"A JavaScript library developed by Facebook for building interfaces which performs on the client side as well as can be rendered server side.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Relay",
+  "answer":"A framework for organizing JavaScript apps into scoped modules that are tied to HTML nodes. Allows each view to declare its own data requirements in the form of a GraphQL query fragment.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"RxJS (the Reactive Extensions for JavaScript)",
+  "answer":"A set of libraries for composing asynchronous & event-based programs using observable sequences and fluent query operators that many of you already know by Array extras in JavaScript. RxJS = Observables + Operators + Schedulers.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"SAML",
+  "answer":"Stands for Security Assertion Markup Language, an XML standard used for exchanging authorization data between an identity provider and a service provider, designed for business transactions.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Sass",
+  "answer":"Stands for Syntactically Awesome StyleSheets. An extension of CSS that allows to use variables, nested rules, mixins, inline imports and other features that don't exist in CSS.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Shadow DOM",
+  "answer":"A browser specification, the ability of the browser to include a subtree of DOM elements into the rendering of a document, allows for multiple DOM subtrees to be composed into one larger tree.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Socket.IO",
+  "answer":"A JavaScript library for realtime web applications. It allows developers to send and receive data without worrying about cross-browser compatibility. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"SSO",
+  "answer":"Stands for Single sign-on, an authentication service that permits a user to use one set of login credentials (like name, password) to access multiple applications.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Stylus",
+  "answer":"A CSS preprocessor which is written in Node.js. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Surefire",
+  "answer":"Used during the test phase of the build lifecycle to execute the unit tests of an application. Basically, it generates reports in two different file formats: Plain text files (*.txt) and XML files (*.xml).",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Turret",
+  "answer":"A styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"TypeScript",
+  "answer":"Microsoft's free and open source programming language that is used to develop JavaScript apps for the client-side or server-side (Node.js) execution.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Flux",
+  "answer":"An architecture for creating data layers in JavaScript application, designed at Facebook along with the React view library.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Underscore.js",
+  "answer":"A JavaScript library that provides functional utilities for programming tasks while developing a web project, provides support for the usual functional suspects (each, map, reduce, filter etc) without extending core JavaScript objects. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"VMware",
+  "answer":"A virtualization software that provides a completely virtualized set of hardware to the guest operating system, also it includes networking/security management tools, software-defined data center, etc. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"vSphere",
+  "answer":"A VMware platform that provides intelligent operations management, high performance, availability of the software infrastructure / applications, good for cloud environment. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Vue",
+  "answer":"A lightweight, incrementally adoptable JavaScript framework for building user interfaces. The core library is focused on the view layer only, and is very easy to pick up and integrate with other libraries/existing projects. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Watchkit",
+  "answer":"A software development kit, an Apple framework for developing applications, Apple Watch interfaces, used to configures visual elements of watchOS apps. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"WebGL",
+  "answer":"Stands for Web Graphics Library, a JavaScript API based on OpenGL ES, it was designed for the purpose of rendering 2D graphics and interactive 3D graphics within any compatible web browser. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"WebKit",
+  "answer":"A browser rendering engine used for Apple's Safari and Google's Chrome browsers. It is also the CSS syntax used for CSS3 modules.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Webpack",
+  "answer":"A module bundler, front-end build tool that puts assets, including JavaScript, images, fonts, and CSS, in a dependency graph, generates the output based on the configuration. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"WebRx",
+  "answer":"A Javascript MVVM-framework for web application development, it is built on RxJs, allows functional-reactive programming, templating and client-side routing. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"WebSphere",
+  "answer":"A software product that supplies a range of Java EE 7 runtime environments. It is used for optimizing and creating applications, connecting existing Java applications etc.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"WebStorm",
+  "answer":"A lightweight, powerful and full-fledged JavaScript IDE used for complex client-side and server-side development with Node.js.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"WinForms",
+  "answer":"A GUI class library in .NET Framework, provides a platform to write rich client applications for desktop, laptop and tablet PCs. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"WSDL",
+  "answer":"Stands for Web Services Description Language, an XML format used for describing the functionality offered by a web service, often used in combination with SOAP and XML Schema.",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"YAML",
+  "answer":"A flexible, human readable file format, data serialization language, good for storing object trees, it stands for “YAML Ain’t Markup Language”, it is easier to read and can contain richer meta data. ",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"XHTML",
+  "answer":"Stands for Extensible Hypertext Markup Language. Is part of the family of XML markup languages. It is used to mirror or extend versions of the widely used Hypertext Markup Language (HTML).",
+  "keywords": ["frontend", "computer science"]
+},
+{
+  "word":"Zurb",
+  "answer":"A front-end framework aimed at creating fully responsive web apps. Allows to quickly create prototypes and production code for sites that work on any kind of device.",
+  "keywords": ["frontend", "computer science"]
+}
+]
