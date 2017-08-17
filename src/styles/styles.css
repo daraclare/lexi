@@ -32,9 +32,9 @@ nav {
   font-size: smaller;
 }
 
-/*.alphabetLetters {
-  clear: bpth;
-}*/
+.clearButton {
+  font-size: smaller;
+}
 
 .letter::before {
   content: " | ";
