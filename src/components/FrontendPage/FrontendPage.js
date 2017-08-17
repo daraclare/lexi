@@ -7,15 +7,23 @@ function searchingFor(term){
   };
 }
 
+function startingLetter(letter){
+  return function(x) {
+    return x.word[0].toLowerCase().includes(letter.toLowerCase()) || !letter;
+  };
+}
+
 export default class FrontendPage extends Component {
   constructor() {
     super();
     this.state = {
       data: [],
-      searchTerm: ''
+      searchTerm: '',
+      searchLetter: ''
     };
 
     this.updateSearch = this.updateSearch.bind(this);
+    this.searchLetter = this.searchLetter.bind(this);
 
   }
 
@@ -28,28 +36,31 @@ export default class FrontendPage extends Component {
     });
   }
 
-
+  searchLetter(event) {
+    let searchLetter = event.target.id;
+    this.setState({
+      searchLetter: searchLetter
+    });
+  }
 
   updateSearch(event) {
     let searchTerm = event.target.value;
     this.setState({
+      searchLetter: '',
       searchTerm: searchTerm
     });
   }
 
   render() {
+    //use ES6 destructuring
+    const {data, searchTerm, searchLetter} = this.state;
 
-    // let filteredList = this.state.data.filter((data) => {
-    //   console.log('data.word.toLowerCase().indexOf(this.state.searchTerm.toLowerCase())', data.word.toLowerCase().indexOf(this.state.searchTerm.toLowerCase()));
-    //   return (
-    //     data.word.toLowerCase().indexOf(this.state.searchTerm.toLowerCase()) !== -1
-    //   );
-    // });
-
-    let filteredList = this.state.data;
+    let alphabetLetters = [
+      "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+    ];
 
     // sort the glossary terms alphabetically
-    filteredList.sort(function(a, b) {
+    data.sort(function(a, b) {
       let wordA = a.word.toLowerCase(); // ignore upper and lowercase
       let wordB = b.word.toLowerCase(); // ignore upper and lowercase
       if (wordA < wordB) {
@@ -65,10 +76,20 @@ export default class FrontendPage extends Component {
     return (
       <div className="lexi-container">
         <h1>LEXI: Software Engineering Glossary</h1>
-        <input type="text" value={this.state.searchTerm} onChange={this.updateSearch}/>
+
+      <div>
+        <input className="searchbox" type="text" value={searchTerm} onChange={this.updateSearch}/>
+        <span className="filterByText">{searchLetter ? `filtered by ${searchLetter}` : ''}</span>
+      </div>
 
 
-        {this.state.data.filter(searchingFor(this.state.searchTerm)).map((data, index) => {
+        <p className="alphabetLetters">
+          {alphabetLetters.map(letter => <span key={letter} className="letter"><a href="#" onClick={this.searchLetter} id={letter}>{letter}</a></span>)}
+        </p>
+
+        {data.filter(searchingFor(searchTerm))
+             .filter(startingLetter(searchLetter))
+             .map((data, index) => {
             return (
               <div key={index}>
                 <p><span className="word">{data.word}:</span> {data.answer}</p>
