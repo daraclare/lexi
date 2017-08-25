@@ -46,6 +46,10 @@ nav {
   white-space: nowrap;
 }
 
+.tags a {
+  text-decoration: none;
+}
+
 
 .keywords {
   background-color: pink;
@@ -53,7 +57,13 @@ nav {
   margin-right: 1%;
   border-radius: 10px;
   color: slategrey;
+  text-transform: uppercase;
 }
+
+.tags {
+  background-color: aqua;
+}
+
 
 hr {
   border: lightgrey 1px solid;

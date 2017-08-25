@@ -82,7 +82,21 @@ export default class FrontendPage extends Component {
       "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
     ];
 
-    let keywordList = ["SWE", "computer science"];
+    let keywordList = [...new Set(data.reduce((a, e) => a.concat(e.keywords), []))];
+
+    // sort the keywords alphabetically
+    keywordList.sort(function(a, b) {
+      let wordA = a.toLowerCase(); // ignore upper and lowercase
+      let wordB = b.toLowerCase(); // ignore upper and lowercase
+      if (wordA < wordB) {
+        return -1;
+      }
+      if (wordA > wordB) {
+        return 1;
+      }
+      // names must be equal
+      return 0;
+    });
 
     // sort the glossary terms alphabetically
     data.sort(function(a, b) {
@@ -113,13 +127,11 @@ export default class FrontendPage extends Component {
         </p>
 
         <p>
-          keywords: {keywordList.map((word) => {
+          Tags: {keywordList.map((word, index) => {
             return (
-              <span key={word}>
-                <a onClick={this.searchKeyword} href="#" id={word}>{word}</a>
-                <span> | </span>
-              </span>
-
+              <button className="keywords tags" key={word+index}>
+                <a onClick={this.searchKeyword} href="#" title={`Filter by ${word.toUpperCase()}`} id={word}>{word}</a>
+              </button>
             );
 
           })}
