@@ -33,6 +33,7 @@ export default class FrontendPage extends Component {
     this.searchLetter = this.searchLetter.bind(this);
     this.searchKeyword = this.searchKeyword.bind(this);
     this.clearButton = this.clearButton.bind(this);
+    this.speakWord = this.speakWord.bind(this);
 
   }
 
@@ -50,6 +51,12 @@ export default class FrontendPage extends Component {
     this.setState({
       searchLetter: searchLetter
     });
+  }
+
+  speakWord(event) {
+    const msg = new SpeechSynthesisUtterance(event.target.id);
+    msg.pitch = 1;
+    window.speechSynthesis.speak(msg);
   }
 
   updateSearch(event) {
@@ -121,7 +128,6 @@ export default class FrontendPage extends Component {
         <span className="filterByText">{searchLetter ? <span>filtered by '{searchLetter}' <button className="clearButton" onClick={this.clearButton}>CLEAR</button></span>: ''}</span>
       </div>
 
-
         <p>
           {alphabetLetters.map(letter => <span key={letter} className="letter"><a href="#" onClick={this.searchLetter} id={letter}>{letter}</a></span>)}
         </p>
@@ -133,7 +139,6 @@ export default class FrontendPage extends Component {
                 <a onClick={this.searchKeyword} href="#" title={`Filter by ${word.toUpperCase()}`} id={word}>{word}</a>
               </button>
             );
-
           })}
         </p>
 
@@ -143,7 +148,7 @@ export default class FrontendPage extends Component {
              .map((data, index) => {
             return (
               <div key={index}>
-                <p><span className="word">{data.word}:</span> {data.answer}</p>
+                <p><span className="word">{data.word}: <i className="fa fa-volume-up" aria-hidden="true" id={data.word} onClick={this.speakWord}/> </span> {data.answer}</p>
                 {data.keywords.map((keyword, index) => {
                   return (
                     <button className="keywords" key={index}>{keyword.toUpperCase()}</button>
