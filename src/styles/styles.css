@@ -1,5 +1,5 @@
-@import './font-face.css';
-@import './font-awesome.min.css';
+@import "./font-face.css";
+@import "./font-awesome.min.css";
 
 html {
   font: 14px/20px "Graphik Web Light", Arial, Verdana, sans-serif;
@@ -15,7 +15,7 @@ nav {
 }
 
 .word {
-  font-family: "Graphik Web SemiBold"
+  font-family: "Graphik Web SemiBold";
 }
 
 .lexi-container {
@@ -56,7 +56,6 @@ nav {
   cursor: pointer;
 }
 
-
 .keywords {
   background-color: pink;
   border: white 1px solid;
@@ -69,7 +68,6 @@ nav {
 .tags {
   background-color: aqua;
 }
-
 
 hr {
   border: lightgrey 1px solid;
